@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "export TF_CPP_MIN_LOG_LEVEL=2 && node index.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
